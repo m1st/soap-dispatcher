@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<soap-env:Envelope
+        xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap-env:Body xmlns:m="http://www.glowbyte.com/dispatcher">
+        <m:SendResponse>
+            <m:result>1</m:result>
+        </m:SendResponse>
+    </soap-env:Body>
+</soap-env:Envelope>

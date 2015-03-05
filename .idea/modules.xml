@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SOAPDispatcher.iml" filepath="$PROJECT_DIR$/SOAPDispatcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SOAPReceiver/SOAPReceiver.iml" filepath="$PROJECT_DIR$/SOAPReceiver/SOAPReceiver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SOAPSender/SOAPSender.iml" filepath="$PROJECT_DIR$/SOAPSender/SOAPSender.iml" />
+    </modules>
+  </component>
+</project>

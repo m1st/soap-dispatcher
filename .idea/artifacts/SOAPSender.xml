@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" build-on-make="true" name="SOAPSender">
+    <output-path>$PROJECT_DIR$/out/artifacts/SOAPSender</output-path>
+    <root id="archive" name="SOAPSender.jar">
+      <element id="javaee-facet-resources" facet="SOAPSender/ejb/EJB" />
+      <element id="module-output" name="SOAPSender" />
+    </root>
+  </artifact>
+</component>

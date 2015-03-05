@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="ear" build-on-make="true" name="SOAPDispatcher">
+    <output-path>$PROJECT_DIR$/out/artifacts/SOAPDispatcher</output-path>
+    <root id="archive" name="SOAPDispatcher.ear">
+      <element id="javaee-facet-resources" facet="SOAPDispatcher/javaeeApplication/SOAPDispatcher" />
+      <element id="artifact" artifact-name="SOAPReceiver" />
+      <element id="artifact" artifact-name="SOAPSender" />
+      <element id="directory" name="lib">
+        <element id="library" level="project" name="activemq-all-5.11.1" />
+      </element>
+    </root>
+  </artifact>
+</component>

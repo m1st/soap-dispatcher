@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="SOAPReceiver">
+    <output-path>$PROJECT_DIR$/out/artifacts/SOAPReceiver</output-path>
+    <root id="archive" name="SOAPReceiver.war">
+      <element id="javaee-facet-resources" facet="SOAPReceiver/web/SOAPReceiver" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SOAPReceiver" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

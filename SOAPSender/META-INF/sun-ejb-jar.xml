@@ -1,0 +1,16 @@
+<sun-ejb-jar>
+    <enterprise-beans>
+        <ejb>
+            <ejb-name>SOAPSenderEJB</ejb-name>
+            <mdb-resource-adapter>
+                <resource-adapter-mid>activemq-rar-5.11.1</resource-adapter-mid>
+            </mdb-resource-adapter>
+            <bean-pool>
+                <steady-pool-size>10</steady-pool-size>
+                <resize-quantity>1</resize-quantity>
+                <max-pool-size>10</max-pool-size>
+                <pool-idle-timeout-in-seconds>600</pool-idle-timeout-in-seconds>
+            </bean-pool>
+        </ejb>
+    </enterprise-beans>
+</sun-ejb-jar>
